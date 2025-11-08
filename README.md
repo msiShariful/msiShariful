@@ -8,6 +8,7 @@
 
 
 <br/>
+
 <a href="https://github.com/msiShariful"> 
  <img align="left" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80">    
 </a>
@@ -131,7 +132,7 @@
  <p align="center">
 <a href="https://github.com/msiShariful">
 
-   <img align="center" src="https://github-readme-stats.vercel.app/api?username=msiShariful&show_icons=true&line_height=30&rank_icon=github&show=discussions_answered&theme=algolia" alt="Walid's github stats"/>
+   <img align="center" src="https://github-readme-stats.vercel.app/api?username=msiShariful&show_icons=true&line_height=30&rank_icon=github&show=discussions_answered&theme=algolia" alt="Sharif's github stats"/>
 
 </a>
 
@@ -161,7 +162,7 @@
 <br/><br/>
  </a>
 
-<!--  [![Walid's github streak](https://github-readme-streak-stats.herokuapp.com/?user=msiShariful&theme=algolia&card_width=1000)](https://github.com/msiShariful) -->
+<!--  [![Sharif's github streak](https://github-readme-streak-stats.herokuapp.com/?user=msiShariful&theme=algolia&card_width=1000)](https://github.com/msiShariful) -->
 
 <br/>
 <a href="https://github.com/msiShariful">
@@ -177,3 +178,112 @@
 </details>
 
 
+
+[![ALL REPOS](https://github-contributor-stats.vercel.app/api?username=msiShariful&limit=6&theme=algolia&combine_all_yearly_contributions=true&hide=msiShariful)](https://github.com/msiShariful?tab=repositories&q=&type=&language=&sort=stargazers)
+
+
+ </p>
+</details>
+
+
+
+
+
+
+<!--MORE SONGS-->
+
+<details open align="center">
+  <summary>💚 More</summary>
+  <br>
+
+
+
+
+<!--QUOTE-->
+<br/><br/>
+  <div align="center">
+
+
+<a href="https://github.com/msiShariful"> 
+ <img align="center" src="./images/city.gif" width="60%" align="center">   
+</a>
+
+
+[![Refresh to see another quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/msiShariful)
+
+
+
+<!-- views-->
+  <img align="left" width="0px" src="https://visitcount.itsvg.in/api?id=msiShariful&label=Profile%20Views&color=1&icon=3&pretty=true" />
+
+
+
+
+
+</div>
+<br/>
+
+
+
+<p align="center">
+⏳  𝚈𝚘𝚞 𝚑𝚊𝚟𝚎 𝚜𝚝𝚊𝚢𝚎𝚍 𝚘𝚗 𝚖𝚢 𝚙𝚛𝚘𝚏𝚒𝚕𝚎 𝚏𝚘𝚛 ◔_◔ ⌛
+<br/><br/>
+</p>
+
+<p align="center">
+<a href="https://github.com/msiShariful" title="Animated SVG clock"><img src="./images/clock.svg" alt="Clock" width="200px" height="200px" title="⌚ Front-End"></a><a href="https://github.com/msiShariful" title="Animated SVG clock"><img src="./images/xlzpyflf.png" alt="Clock" width="200px" height="200px" title="⚙️ Back-End"></a>
+
+</p>
+
+<br/>
+
+
+
+<a href="https://github.com/msiShariful"> 
+ <img align="center" src="./images/citytheme.gif" width="60%" >   
+</a>
+
+<br/>
+
+<a href="https://github.com/msiShariful"> 
+ <img align="center" src="./images/skills.png" width="100%">   
+</a>
+
+
+</div>
+
+ </p>
+</details>
+
+</div>
+
+ <!--MOON-->
+ <p align="center">
+ <a href="https://github.com/msiShariful"><img src="https://github.com/user-attachments/assets/bb0eb1a9-234a-43a7-9bd6-ebbade6712a3" align="center" /> </a>
+</p>
+
+
+
+
+
+<!-- THANKS-->
+
+<p ><a href="#top"><img src="https://img.shields.io/static/v1?label&message=Back+to+Top&color=0b6ab3&style=flat&logo=java" alt="Back to Top" align="right" /></a></p>
+<p ><a href="#top"><img src="https://img.shields.io/static/v1?label&message=Back+to+Top&color=0b6ab3&style=flat&logo=java" alt="Back to Top" align="left" /></a></p>
+
+
+<p align="center">
+  <a href="https://github.com/msiShariful"><img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks%20For%20Visitng!;Take%20A%20Look%20at%20my%20Repositories%20⭐👇;Follow..;Your%20Dreams%20😉;&font=Pacifico&center=true&width=650&height=100&color=58a6ff&vCenter=true&size=18"></a>
+</p>
+
+
+
+
+
+
+<!--
+[![GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=msiShariful)
+
+[![GitHub forks](https://img.shields.io/github/forks/msiShariful/MATLAB_Image_processing_app.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/msiShariful/MATLAB_Image_processing_app/network/)
+[![GitHub watchers](https://img.shields.io/github/watchers/msiShariful/MATLAB_Image_processing_app.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/msiShariful/MATLAB_Image_processing_app/watchers/)
+ <img align="left" src="https://img.shields.io/github/downloads/msiShariful/MATLAB_Image_processing_app/total.svg" width="200">   
