@@ -213,13 +213,17 @@ I build the **invisible machinery that powers great products** — the APIs, ser
   <tr>
     <td align="center" width="50%" valign="top">
       <br/>
-      <h3>💰 fintracker <sub>🔒</sub></h3>
+      <h3>💰 <a href="https://github.com/msiShariful/fintracker">fintracker</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/status-going_public_soon-FFA500?style=flat-square&logo=github&labelColor=01102d" alt="Going public soon" />
+        <a href="https://github.com/msiShariful/fintracker/stargazers"><img src="https://badgen.net/github/stars/msiShariful/fintracker?icon=github&labelColor=01102d&color=6eb9f2" alt="Stars" /></a>
+        <a href="https://github.com/msiShariful/fintracker/commits"><img src="https://badgen.net/github/last-commit/msiShariful/fintracker?labelColor=01102d&color=41c350" alt="Last commit" /></a>
       </p>
-      <p>Personal <b>finance tracker</b> — track expenses, budgets & insights. Currently in private development, open-sourcing soon. 🔓</p>
+      <p>Personal <b>finance tracker</b> — expenses, budgets & insights with a secure, server-rendered UI on Java 21. 📊</p>
       <p>
-        <img src="https://img.shields.io/badge/Coming_Soon-01102d?style=flat-square&logo=rocket&logoColor=white" alt="Coming soon" />
+        <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 4" />
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" />
+        <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
+        <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
       </p>
       <br/>
     </td>
