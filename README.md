@@ -21,9 +21,7 @@
 <!-- Social buttons -->
 <a href="https://www.linkedin.com/in/msiShariful" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32" /></a>&nbsp;
 <a href="http://islamshariful.com/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-41c350?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" height="32" /></a>&nbsp;
-<a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32" /></a>&nbsp;
-<a href="https://t.me/msiShariful" target="_blank"><img src="https://img.shields.io/badge/Telegram-1CA0F1?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" height="32" /></a>&nbsp;
-<a href="http://msiShariful.byethost12.com/wp-content/uploads/2023/09/sharifulislam.pdf" target="_blank"><img src="https://img.shields.io/badge/Resume-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" height="32" /></a>
+<a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32" /></a>
 
 <br/><br/>
 
@@ -432,9 +430,7 @@ I build the **invisible machinery that powers great products** — the APIs, ser
 
 <p align="center">
   <a href="https://www.linkedin.com/in/msiShariful" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://t.me/msiShariful" target="_blank"><img src="https://img.shields.io/badge/Telegram-1CA0F1?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-</p>
+  <a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a></p>
 
 <p align="center">
   <a href="https://github.com/msiShariful">
