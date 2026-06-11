@@ -330,21 +330,37 @@ I build the **invisible machinery that powers great products** — the APIs, ser
 
 ## 🎓 Education & Certifications
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/msiShariful/details/education" title="🎓 BSc in Computer Science & Engineering — American International University-Bangladesh">
-    <img src="./images/aiub.png" alt="AIUB" height="180" />
-  </a>
-</p>
-
-<p align="center">
-  🎓 <b>BSc in Computer Science & Engineering</b> — American International University-Bangladesh (AIUB)
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank">
-    <img src="https://img.shields.io/badge/View_My_Certifications-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Certifications" />
-  </a>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="42%" valign="middle">
+      <h3>🎓 Education</h3>
+      <a href="https://www.linkedin.com/in/msiShariful/details/education" title="🎓 BSc in Computer Science & Engineering — American International University-Bangladesh">
+        <img src="./images/aiub.png" alt="AIUB" height="150" />
+      </a>
+      <h4>BSc in Computer Science & Engineering</h4>
+      <p><sub>American International University–Bangladesh (AIUB)</sub></p>
+    </td>
+    <td align="center" width="58%" valign="middle">
+      <h3>📜 Certifications</h3>
+      <p>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Anthropic-Introduction_to_Subagents_%C2%B7_2026-D97757?style=for-the-badge&logo=claude&logoColor=D97757&labelColor=191919" alt="Anthropic — Introduction to Subagents (Apr 2026)" /></a>
+        <br/><br/>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Anthropic-Introduction_to_Agent_Skills_%C2%B7_2026-D97757?style=for-the-badge&logo=claude&logoColor=D97757&labelColor=191919" alt="Anthropic — Introduction to Agent Skills (Apr 2026)" /></a>
+        <br/><br/>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Anthropic-Claude_Code_in_Action_%C2%B7_2026-D97757?style=for-the-badge&logo=claude&logoColor=D97757&labelColor=191919" alt="Anthropic — Claude Code in Action (Apr 2026)" /></a>
+        <br/><br/>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Udemy-Software_Architecture_%26_Large_Scale_Systems-01102d?style=for-the-badge&logo=udemy&logoColor=white&labelColor=A435F0" alt="Udemy — Software Architecture & Design of Modern Large Scale Systems" /></a>
+        <br/><br/>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Cisco-NDG_Linux_Unhatched_%C2%B7_2020-01102d?style=for-the-badge&logo=cisco&logoColor=white&labelColor=1BA0D7" alt="Cisco — NDG Linux Unhatched (Sep 2020)" /></a>
+        <br/><br/>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/Cisco-IT_Essentials_%C2%B7_2018-01102d?style=for-the-badge&logo=cisco&logoColor=white&labelColor=1BA0D7" alt="Cisco — IT Essentials (Jan 2018)" /></a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/msiShariful/details/certifications" target="_blank"><img src="https://img.shields.io/badge/✓_Verify_on-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=01102d" alt="Verify certifications on LinkedIn" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <img src="https://media.tenor.com/zhIZszouG8QAAAAi/line-divider.gif" width="100%" height="2px" alt="" />
 
