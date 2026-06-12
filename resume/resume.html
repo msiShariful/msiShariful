@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shariful Islam — Backend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: A4; margin: 0; }
+  html, body { width: 210mm; }
+  body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 8.9pt; color: #2b3645; line-height: 1.42;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  a { color: inherit; text-decoration: none; }
+  .mono { font-family: "JetBrains Mono", monospace; }
+
+  /* ════════ HEADER ════════ */
+  .header {
+    background: linear-gradient(120deg, #0a1628 0%, #0e2747 55%, #14406e 100%);
+    color: #fff; padding: 7mm 12mm 6mm;
+    display: flex; align-items: center; justify-content: space-between;
+    position: relative; overflow: hidden;
+  }
+  .header::after {
+    content: ""; position: absolute; right: -28mm; top: -30mm;
+    width: 80mm; height: 80mm; border-radius: 50%;
+    background: radial-gradient(circle, rgba(95,180,245,.16) 0%, transparent 70%);
+  }
+  .h-left h1 { font-size: 22pt; font-weight: 800; letter-spacing: -0.4px; }
+  .h-left h1 span { color: #5fb4f5; }
+  .h-left .role {
+    margin-top: 1.2mm; font-size: 9pt; font-weight: 600; color: #9fc8ea;
+  }
+  .h-left .role b { color: #fff; }
+  .contact { margin-top: 3.2mm; display: flex; flex-wrap: wrap; gap: 1.6mm; }
+  .chip {
+    background: rgba(255,255,255,.09); border: 1px solid rgba(149,196,237,.35);
+    border-radius: 10px; padding: 0.8mm 2.6mm; font-size: 7.3pt; color: #dce9f5;
+    font-weight: 500;
+  }
+  .qr { text-align: center; position: relative; z-index: 1; }
+  .qr img { width: 19mm; height: 19mm; border-radius: 2mm; border: 1.2mm solid #fff; display: block; }
+  .qr div { font-size: 6.4pt; color: #9fc8ea; margin-top: 1.2mm; letter-spacing: .4px; }
+
+  /* ════════ STAT STRIP ════════ */
+  .stats {
+    display: flex; background: #0a1628; color: #fff;
+    border-top: 1px solid rgba(95,180,245,.25);
+  }
+  .stat {
+    flex: 1; text-align: center; padding: 2.1mm 0 1.9mm;
+    border-right: 1px solid rgba(95,180,245,.15);
+  }
+  .stat:last-child { border-right: none; }
+  .stat .num { font-size: 12.5pt; font-weight: 800; color: #5fb4f5; font-family: "JetBrains Mono", monospace; }
+  .stat .lbl { font-size: 6.6pt; text-transform: uppercase; letter-spacing: 1.1px; color: #8fa9c4; margin-top: .4mm; }
+
+  /* ════════ LAYOUT ════════ */
+  .columns { display: flex; }
+  .main { width: 63%; padding: 5.5mm 6mm 6mm 12mm; }
+  .side { width: 37%; padding: 5mm 12mm 5mm 6mm; background: #f3f7fb; min-height: 228mm; }
+
+  h2 {
+    font-size: 9.4pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.8px;
+    color: #0e2747; margin: 4mm 0 2.3mm; display: flex; align-items: center; gap: 2mm;
+  }
+  h2::after { content: ""; flex: 1; height: 1.5px; background: linear-gradient(90deg, #5fb4f5, transparent); }
+  .main h2:first-child, .side h2:first-child { margin-top: 0; }
+
+  /* ════════ EXPERIENCE TIMELINE ════════ */
+  .timeline { position: relative; padding-left: 5mm; }
+  .timeline::before {
+    content: ""; position: absolute; left: 1.1mm; top: 1.5mm; bottom: 1mm;
+    width: 0.6mm; background: linear-gradient(#5fb4f5, #d6e6f5);
+  }
+  .t-entry { position: relative; margin-bottom: 3mm; }
+  .t-entry::before {
+    content: ""; position: absolute; left: -5mm; top: 1.2mm;
+    width: 2.6mm; height: 2.6mm; border-radius: 50%;
+    background: #fff; border: 0.7mm solid #1668b0;
+  }
+  .t-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .t-title { font-size: 10.3pt; font-weight: 700; color: #0e2747; }
+  .t-date {
+    font-family: "JetBrains Mono", monospace; font-size: 7pt; font-weight: 600;
+    color: #1668b0; background: #e3eefa; border-radius: 8px; padding: 0.6mm 2.4mm;
+    white-space: nowrap;
+  }
+  .t-org { font-size: 8.6pt; font-weight: 600; color: #5a6b7d; margin: .6mm 0 1.6mm; }
+  ul.bullets { margin-left: 3.6mm; }
+  ul.bullets li { margin-bottom: 1.3mm; padding-left: .8mm; }
+  ul.bullets li::marker { color: #1668b0; }
+
+  /* ════════ PROJECTS GRID ════════ */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; }
+  .card {
+    border: 1px solid #dbe7f2; border-left: 1mm solid #1668b0;
+    border-radius: 1.6mm; padding: 1.8mm 2.4mm; background: #fbfdff;
+  }
+  .card b { font-size: 8.6pt; color: #0e2747; display: block; }
+  .card p { font-size: 7.6pt; color: #4a5a6b; margin-top: .5mm; }
+  .card .tech { font-family: "JetBrains Mono", monospace; font-size: 6.4pt; color: #1668b0; display: block; margin-top: .8mm; }
+
+  /* ════════ SIDEBAR ════════ */
+  .skill-group { margin-bottom: 2mm; }
+  .skill-group b { display: block; color: #0e2747; font-size: 8.2pt; font-weight: 700; margin-bottom: 1mm; }
+  .tags { display: flex; flex-wrap: wrap; gap: 1.1mm; }
+  .tag {
+    background: #0e2747; color: #e8f1f9; border-radius: 9px;
+    padding: 0.6mm 2.4mm; font-size: 7.1pt; font-weight: 500; white-space: nowrap;
+  }
+  .tag.hot { background: #1668b0; }
+  .tag.alt { background: #fff; color: #0e2747; border: 1px solid #b9cfe2; }
+  .edu-card {
+    background: #fff; border: 1px solid #dbe7f2; border-radius: 1.6mm; padding: 2.4mm 3mm;
+  }
+  .edu-card b { color: #0e2747; font-size: 8.8pt; }
+  .edu-card .sub { font-size: 7.8pt; color: #5a6b7d; margin-top: .5mm; }
+  .cert { display: flex; gap: 2mm; margin-bottom: 1.2mm; align-items: baseline; }
+  .cert .yr { font-family: "JetBrains Mono", monospace; font-size: 6.8pt; font-weight: 600; color: #1668b0; min-width: 8mm; }
+  .cert .nm { font-size: 8pt; font-weight: 600; color: #0e2747; }
+  .cert .is { font-size: 7.2pt; color: #5a6b7d; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="h-left">
+    <h1>SHARIFUL <span>ISLAM</span></h1>
+    <div class="role"><b>Backend Developer</b> · Laravel &nbsp;•&nbsp; Spring Boot &nbsp;•&nbsp; Express.js</div>
+    <div class="contact">
+      <span class="chip">📍 Dhaka, Bangladesh</span>
+      <span class="chip">✉️ sharifulislam12570@gmail.com</span>
+      <span class="chip">🌐 islamshariful.com</span>
+      <span class="chip">💼 linkedin.com/in/msiShariful</span>
+      <span class="chip">📦 npmjs.com/~msishariful</span>
+    </div>
+  </div>
+  <div class="qr">
+    <img src="qr-github.png" alt="GitHub QR" />
+    <div>github.com/msiShariful</div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="num">8+</div><div class="lbl">Products Shipped</div></div>
+  <div class="stat"><div class="num">2</div><div class="lbl">npm Packages</div></div>
+  <div class="stat"><div class="num">7</div><div class="lbl">Open-Source Repos</div></div>
+  <div class="stat"><div class="num">6</div><div class="lbl">Certifications</div></div>
+</div>
+
+<div class="columns">
+  <div class="main">
+    <h2>Profile</h2>
+    <p style="text-align: justify;">
+      Backend developer building scalable, high-performance server-side systems with
+      <b>Laravel, Spring Boot and Express.js</b>. Designs event-driven architectures, microservices
+      and REST/gRPC APIs powering eCommerce, fintech and on-demand platforms used by thousands of
+      businesses worldwide — with deep ownership of database design, caching, containerized
+      deployment and CI/CD automation.
+    </p>
+
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="t-entry">
+        <div class="t-head">
+          <span class="t-title">Backend Developer</span>
+          <span class="t-date">[Start Year] — PRESENT</span>
+        </div>
+        <div class="t-org">6amTech · Dhaka, Bangladesh</div>
+        <ul class="bullets">
+          <li>Build and maintain flagship Laravel platforms for a global customer base —
+              <b>6Valley</b> (multi-vendor eCommerce), <b>eFood</b> (food delivery), <b>Demandium</b>
+              (on-demand services), <b>6Cash</b> (MFS digital wallet), <b>GroFresh</b>, <b>Hexacom</b>
+              and <b>Menumium</b> (restaurant management).</li>
+          <li>Implemented a high-performance <b>Swoole</b> application server for Menumium; containerized
+              workloads with <b>Docker &amp; Kubernetes</b>, scaled on DigitalOcean.</li>
+          <li>Designed <b>event-driven architecture</b> and the company-wide <b>Payment &amp; SMS Gateway
+              add-on</b> integrated across the entire product line.</li>
+          <li>Own system &amp; database design across MySQL, PostgreSQL, MongoDB and Redis; tuned caching
+              and queries for high-traffic workloads.</li>
+          <li>Run CI/CD with <b>Jenkins</b>, streaming with <b>Apache Kafka</b>, API gateways with Kong,
+              and resilience patterns (circuit breakers).</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Open Source &amp; Projects</h2>
+    <div class="grid">
+      <div class="card"><b>meridian-erp</b><p>Modular open-source ERP with clean domain boundaries.</p><span class="tech">Spring Boot 3 · Modulith · Thymeleaf</span></div>
+      <div class="card"><b>fintracker</b><p>Personal finance tracker with secure server-rendered UI.</p><span class="tech">Spring Boot 4 · Java 21 · Security</span></div>
+      <div class="card"><b>@msishariful/contextkit</b><p>Token-efficient AI coding-agent configuration generator.</p><span class="tech">npm · Node.js · CLI</span></div>
+      <div class="card"><b>@msishariful/claude-usage-cli</b><p>Claude Code token usage &amp; cost reporting in the terminal.</p><span class="tech">npm · Node.js · CLI</span></div>
+      <div class="card"><b>claude-token-inspector</b><p>Claude Code plugin (8 skills) to audit &amp; optimize context windows.</p><span class="tech">AI Tooling · Plugin</span></div>
+      <div class="card"><b>rustty</b><p>GPU-rendered terminal emulator with full ANSI support.</p><span class="tech">Rust · egui</span></div>
+      <div class="card"><b>Infra templates</b><p>One-command Kafka &amp; Jenkins stacks, automated LAMP setup.</p><span class="tech">Docker Compose · Bash</span></div>
+    </div>
+  </div>
+
+  <div class="side">
+    <h2>Skills</h2>
+    <div class="skill-group"><b>Backend</b>
+      <div class="tags"><span class="tag hot">Laravel</span><span class="tag hot">Spring Boot</span><span class="tag hot">Express.js</span><span class="tag">Node.js</span><span class="tag">REST APIs</span><span class="tag">gRPC</span><span class="tag">Microservices</span><span class="tag">Swoole</span></div>
+    </div>
+    <div class="skill-group"><b>Languages</b>
+      <div class="tags"><span class="tag">PHP</span><span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">Bash</span></div>
+    </div>
+    <div class="skill-group"><b>Databases &amp; Caching</b>
+      <div class="tags"><span class="tag alt">MySQL</span><span class="tag alt">PostgreSQL</span><span class="tag alt">MongoDB</span><span class="tag alt">Redis</span><span class="tag alt">Oracle</span></div>
+    </div>
+    <div class="skill-group"><b>DevOps &amp; Cloud</b>
+      <div class="tags"><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Jenkins</span><span class="tag">Terraform</span><span class="tag">Kafka</span><span class="tag">Kong</span><span class="tag">Nginx</span><span class="tag">AWS</span><span class="tag">DigitalOcean</span><span class="tag">Linux</span></div>
+    </div>
+    <div class="skill-group"><b>Practices</b>
+      <div class="tags"><span class="tag alt">Event-Driven Architecture</span><span class="tag alt">CI/CD</span><span class="tag alt">Circuit Breaker</span><span class="tag alt">System Design</span><span class="tag alt">DB Design</span></div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="edu-card">
+      <b>BSc in Computer Science &amp; Engineering</b>
+      <div class="sub">American International University–Bangladesh (AIUB) · Dhaka</div>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="cert"><span class="yr">2026</span><span><span class="nm">Introduction to Subagents</span><br/><span class="is">Anthropic</span></span></div>
+    <div class="cert"><span class="yr">2026</span><span><span class="nm">Introduction to Agent Skills</span><br/><span class="is">Anthropic</span></span></div>
+    <div class="cert"><span class="yr">2026</span><span><span class="nm">Claude Code in Action</span><br/><span class="is">Anthropic</span></span></div>
+    <div class="cert"><span class="yr">—</span><span><span class="nm">Software Architecture &amp; Design of Modern Large Scale Systems</span><br/><span class="is">Udemy</span></span></div>
+    <div class="cert"><span class="yr">2020</span><span><span class="nm">NDG Linux Unhatched</span><br/><span class="is">Cisco</span></span></div>
+    <div class="cert"><span class="yr">2018</span><span><span class="nm">IT Essentials</span><br/><span class="is">Cisco</span></span></div>
+  </div>
+</div>
+
+</body>
+</html>

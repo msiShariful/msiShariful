@@ -21,7 +21,9 @@
 <!-- Social buttons -->
 <a href="https://www.linkedin.com/in/msiShariful" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32" /></a>&nbsp;
 <a href="http://islamshariful.com/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-41c350?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" height="32" /></a>&nbsp;
-<a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32" /></a>
+<a href="mailto:sharifulislam12570@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="32" /></a>&nbsp;
+<a href="https://github.com/msiShariful/msiShariful/blob/master/resume/Shariful_Islam_Resume.pdf" target="_blank"><img src="https://img.shields.io/badge/Resume-View-0b6ab3?style=for-the-badge&logo=readme&logoColor=white&labelColor=01102d" alt="View Resume" height="32" /></a>&nbsp;
+<a href="https://raw.githubusercontent.com/msiShariful/msiShariful/master/resume/Shariful_Islam_Resume.pdf" target="_blank"><img src="https://img.shields.io/badge/Resume-Download-41c350?style=for-the-badge&logo=docusign&logoColor=white&labelColor=01102d" alt="Download Resume" height="32" /></a>
 
 <br/><br/>
 
