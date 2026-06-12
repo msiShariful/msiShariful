@@ -137,7 +137,18 @@ I build the **invisible machinery that powers great products** — the APIs, ser
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%" valign="top">
+      <h3>
+        <a href="https://www.npmjs.com/package/cc-studio" target="_blank">🎛️ cc-studio</a>
+      </h3>
+      <p>Claude Code Studio — local GUI for managing Claude Code settings: MCP servers, plugins, hooks, agents, skills & <code>CLAUDE.md</code>.</p>
+      <p>
+        <a href="https://www.npmjs.com/package/cc-studio"><img src="https://img.shields.io/npm/v/cc-studio?style=for-the-badge&logo=npm&logoColor=white&label=version&color=0A66C2" alt="Version" /></a>
+        <a href="https://www.npmjs.com/package/cc-studio"><img src="https://img.shields.io/npm/d18m/cc-studio?style=for-the-badge&logo=npm&logoColor=white&label=downloads&color=CB3837" alt="Downloads" /></a>
+      </p>
+      <code>npx cc-studio</code>
+    </td>
+    <td align="center" width="33%" valign="top">
       <h3>
         <a href="https://www.npmjs.com/package/@msishariful/contextkit" target="_blank">⚡ contextkit</a>
       </h3>
@@ -148,7 +159,7 @@ I build the **invisible machinery that powers great products** — the APIs, ser
       </p>
       <code>npm i @msishariful/contextkit</code>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%" valign="top">
       <h3>
         <a href="https://www.npmjs.com/package/@msishariful/claude-usage-cli" target="_blank">📟 claude-usage-cli</a>
       </h3>
