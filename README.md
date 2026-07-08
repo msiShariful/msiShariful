@@ -252,6 +252,26 @@ I build the **invisible machinery that powers great products** — the APIs, ser
       <br/>
     </td>
   </tr>
+  <tr>
+    <td align="center" colspan="2" valign="top">
+      <br/>
+      <h3>🗃️ <a href="https://github.com/msiShariful/dbdiagram-clone">dbdiagram-clone</a> &nbsp;·&nbsp; <a href="https://msishariful.github.io/dbdiagram-clone/">🌐 Live Demo</a></h3>
+      <p>
+        <a href="https://github.com/msiShariful/dbdiagram-clone/stargazers"><img src="https://badgen.net/github/stars/msiShariful/dbdiagram-clone?icon=github&labelColor=01102d&color=6eb9f2" alt="Stars" /></a>
+        <a href="https://github.com/msiShariful/dbdiagram-clone/commits"><img src="https://badgen.net/github/last-commit/msiShariful/dbdiagram-clone?labelColor=01102d&color=41c350" alt="Last commit" /></a>
+        <a href="https://github.com/msiShariful/dbdiagram-clone/actions/workflows/ci.yml"><img src="https://github.com/msiShariful/dbdiagram-clone/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+      </p>
+      <p>Local-first, open-source <b>database diagram editor</b> — write <b>DBML</b> on the left, see a live <b>ER diagram</b> on the right. Schema-aware editor, resilient Web-Worker parsing, IndexedDB persistence. <b>No backend, no account, no paywall.</b> ⚡</p>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/CodeMirror_6-D30707?style=flat-square&logo=codemirror&logoColor=white" alt="CodeMirror 6" />
+        <img src="https://img.shields.io/badge/DBML-FF6C37?style=flat-square&logo=databricks&logoColor=white" alt="DBML" />
+      </p>
+      <br/>
+    </td>
+  </tr>
 </table>
 
 <h3 align="center">🐳 DevOps & Infrastructure</h3>
