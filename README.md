@@ -267,7 +267,7 @@ I build the **invisible machinery that powers great products** — the APIs, ser
         <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
         <img src="https://img.shields.io/badge/CodeMirror_6-D30707?style=flat-square&logo=codemirror&logoColor=white" alt="CodeMirror 6" />
-        <img src="https://img.shields.io/badge/DBML-FF6C37?style=flat-square&logo=databricks&logoColor=white" alt="DBML" />
+        <img src="https://img.shields.io/badge/DBML-FF6C37?style=flat-square" alt="DBML" />
       </p>
       <br/>
     </td>
