@@ -150,17 +150,6 @@ I build the **invisible machinery that powers great products** — the APIs, ser
     </td>
     <td align="center" width="33%" valign="top">
       <h3>
-        <a href="https://www.npmjs.com/package/@msishariful/contextkit" target="_blank">⚡ contextkit</a>
-      </h3>
-      <p>Token-efficient AI coding agent configuration — generates optimized <code>CLAUDE.md</code> & agent config files.</p>
-      <p>
-        <a href="https://www.npmjs.com/package/@msishariful/contextkit"><img src="https://img.shields.io/npm/v/%40msishariful%2Fcontextkit?style=for-the-badge&logo=npm&logoColor=white&label=version&color=0A66C2" alt="Version" /></a>
-        <a href="https://www.npmjs.com/package/@msishariful/contextkit"><img src="https://img.shields.io/npm/d18m/%40msishariful%2Fcontextkit?style=for-the-badge&logo=npm&logoColor=white&label=downloads&color=CB3837" alt="Downloads" /></a>
-      </p>
-      <code>npm i @msishariful/contextkit</code>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <h3>
         <a href="https://www.npmjs.com/package/@msishariful/claude-usage-cli" target="_blank">📟 claude-usage-cli</a>
       </h3>
       <p>View your Claude Code token usage & costs right from the terminal — fast, zero-config CLI.</p>
@@ -169,6 +158,17 @@ I build the **invisible machinery that powers great products** — the APIs, ser
         <a href="https://www.npmjs.com/package/@msishariful/claude-usage-cli"><img src="https://img.shields.io/npm/d18m/%40msishariful%2Fclaude-usage-cli?style=for-the-badge&logo=npm&logoColor=white&label=downloads&color=CB3837" alt="Downloads" /></a>
       </p>
       <code>npm i -g @msishariful/claude-usage-cli</code>
+    </td>
+    <td align="center" width="33%" valign="top">
+      <h3>
+        <a href="https://www.npmjs.com/package/@msishariful/contextkit" target="_blank">⚡ contextkit</a>
+      </h3>
+      <p>Token-efficient AI coding agent configuration — generates optimized <code>CLAUDE.md</code> & agent config files.</p>
+      <p>
+        <a href="https://www.npmjs.com/package/@msishariful/contextkit"><img src="https://img.shields.io/npm/v/%40msishariful%2Fcontextkit?style=for-the-badge&logo=npm&logoColor=white&label=version&color=0A66C2" alt="Version" /></a>
+        <a href="https://www.npmjs.com/package/@msishariful/contextkit"><img src="https://img.shields.io/npm/d18m/%40msishariful%2Fcontextkit?style=for-the-badge&logo=npm&logoColor=white&label=downloads&color=CB3837" alt="Downloads" /></a>
+      </p>
+      <code>npm i @msishariful/contextkit</code>
     </td>
   </tr>
 </table>
